@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - MediCare Pharmacy</title>
+    <link rel="stylesheet" href="./styles/pharmacy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- Internal CSS -->
+    <style>
+        .team-intro {
+            text-align: center;
+            max-width: 800px;
+            margin: 20px auto 40px;
+        }
+        
+        .team-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        .team-table th, .team-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .team-table th {
+            background-color: #2a7fba;
+            color: white;
+        }
+        
+        .team-table tr:hover {
+            background-color: #f5f5f5;
+        }
+        
+        .team-categories {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 40px 0;
+        }
+        
+        .team-category {
+            flex: 1;
+            min-width: 300px;
+            margin: 15px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .team-category h3 {
+            color: #2a7fba;
+            border-bottom: 2px solid #2a7fba;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Medi</span>Care Pharmacy</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li class="current"><a href="./team.html">Our Team</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section id="page-header">
+        <div class="container">
+            <h1>Meet Our Team</h1>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <section id="main-content">
+            <div class="team-intro">
+                <h2>Our Dedicated Healthcare Professionals</h2>
+                <p>At MediCare Pharmacy, our team of experienced pharmacists, technicians, and healthcare specialists is committed to providing you with the highest quality care and service.</p>
+            </div>
+            
+            <h2 style="text-align: center;">Team Members</h2>
+            <table class="team-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                   
+                        <th>Course</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>240506</td>
+                        <td>Tugume Andrew</td>
+                 
+                        <td>BDSA</td>
+                        <td>ta240506@students.cavendish.ac.ug</td>
+                    </tr>
+                    <tr>
+                        <td>249016</td>
+                        <td>Ndiomugenyi Denis</td>
+            
+                        <td>BDSA</td>
+                        <td>nd249016@students.cavendish.ac.ug</td>
+                    </tr>
+                    <tr>
+                        <td>244012</td>
+                        <td>Kiweewa Ivan Mulinda</td>
+                   
+                        <td>BDSA</td>
+                        <td>ki244012@students.cavendish.ac.ug</td>
+                    </tr>
+                    <tr>
+                        <td>241918</td>
+                        <td>Okee Samuel Jude</td>
+                  
+                        <td>BDSA</td>
+                        <td>os241918@students.cavendish.ac.ug</td>
+                    </tr>
+                    <tr>
+                        <td>254430</td>
+                        <td>Tinka Fahad</td>
+             
+                        <td>BDSA</td>
+                        <td>tf254430@students.cavendish.ac.ug</td>
+                    </tr>
+                    <tr>
+                        <td>255757</td>
+                        <td>Kagimu Moses</td>
+             
+                        <td>BDSA</td>
+                        <td>km25575@students.cavendish.ac.ug</td>
+                    </tr>
+
+                </tbody>
+            </table>
+            
+            <div class="team-categories">
+                <div class="team-category">
+                    <h3>Pharmacy Team</h3>
+                    <p>Our licensed pharmacists ensure that all medications are dispensed accurately and provide expert advice on drug interactions, side effects, and proper usage.</p>
+                    <ul>
+                        <li>Kiweewa Ivan - Chief Pharmacist</li>
+                        <li>Tugume Andrew - Senior Pharmacist</li>
+                    </ul>
+                </div>
+                
+                <div class="team-category">
+                    <h3>Management Team</h3>
+                    <p>Our management professionals work behind the scenes to ensure smooth operations, excellent customer service, and continuous improvement of our platform.</p>
+                    <ul>
+                        <li>Ndiomugenyi Denis - Customer Service Manager</li>
+                        <li>Okee Samuel - Inventory Manager</li>
+                        <li>Tinka Fahad - IT Specialist</li>
+                    </ul>
+                </div>
+                
+                <div class="team-category">
+                    <h3>Consulting Team</h3>
+                    <p>Our consulting pharmacists provide specialized services including medication therapy management and chronic disease management support.</p>
+                    <ul>
+                        <li>Dr. Kiweewa Ivan - Consultant Pharmacist</li>
+                        <li>Additional specialists available on-call</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MediCare Pharmacy</h3>
+                    <p>Your trusted online pharmacy for all your healthcare needs.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                                <div class="social-icons">
+                        <a href="#"><span style="color: #3b5998;"><i style="font-size: 27px;" class="fa-brands fa-square-facebook"></i></span></a>
+                        <a href="#"><span style="color: #fff;"><i style="font-size: 27px;" class="fa-brands fa-square-x-twitter"></i></span></a>
+                        <a href="#"><span style="color: #e4405f;"><i style="font-size: 27px;" class="fa-brands fa-square-instagram"></i></span></a>
+                        <a href="#"><span style="color: #0077b5;"><i style="font-size: 27px;" class="fa-brands fa-linkedin"></i></span></a>
+                    </div>
+             
+
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 MediCare Pharmacy. All rights reserved. | Designed MediCare Pharmacy</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

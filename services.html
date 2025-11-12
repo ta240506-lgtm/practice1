@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - MediCare Pharmacy</title>
+    <link rel="stylesheet" href="./styles/pharmacy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- Internal CSS -->
+    <style>
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 30px 0;
+        }
+        
+        .service-card {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .service-icon {
+            font-size: 40px;
+            color: #2a7fba;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        .service-card h3 {
+            color: #2a7fba;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        
+        .service-features {
+            margin: 40px 0;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+        }
+        
+        .feature-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .feature-item {
+            flex: 1;
+            min-width: 200px;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Medi</span>Care Pharmacy</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li class="current"><a href="./services.html">Services</a></li>
+                    <li><a href="./team.html">Our Team</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section id="page-header">
+        <div class="container">
+            <h1>Our Services</h1>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <section id="main-content">
+            <h2 style="text-align: center;">Comprehensive Healthcare Solutions</h2>
+            <p style="text-align: center; max-width: 800px; margin: 20px auto;">At MediCare Pharmacy, we offer a wide range of services designed to meet all your healthcare needs with convenience and expertise.</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💊</div>
+                    <h3>Online Medicine Ordering</h3>
+                    <p>Browse and order from our extensive catalog of prescription and over-the-counter medicines. Our user-friendly platform makes it easy to find what you need.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🚚</div>
+                    <h3>Fast Home Delivery</h3>
+                    <p>Get your medications delivered to your doorstep within 24 hours. We ensure safe and secure packaging with temperature control when needed.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">👨‍⚕️</div>
+                    <h3>Pharmacist Consultation</h3>
+                    <p>Connect with our licensed pharmacists for personalized advice on medication usage, side effects, and drug interactions.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Medicine Reminders</h3>
+                    <p>Set up custom reminders for your medication schedule to ensure you never miss a dose and stay on track with your treatment.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Digital Prescription Management</h3>
+                    <p>Upload and store your prescriptions securely in your account for easy refills and access to your medication history.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🏥</div>
+                    <h3>Health Monitoring</h3>
+                    <p>Track your vital signs and health metrics with our integrated health monitoring tools and share them with your healthcare provider.</p>
+                </div>
+            </div>
+            
+            <div class="service-features">
+                <h2 style="text-align: center; margin-bottom: 30px;">Additional Features</h2>
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <h4 style="color: #2a7fba;">Price Comparison</h4>
+                        <p>Compare prices of generic and brand-name medicines to make cost-effective choices.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4 style="color: #2a7fba;">Health Articles</h4>
+                        <p>Access our library of health-related articles written by medical professionals.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4 style="color: #2a7fba;">Auto Refill Service</h4>
+                        <p>Set up automatic refills for your regular medications so you never run out.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4 style="color: #2a7fba;">Insurance Support</h4>
+                        <p>We help you navigate insurance claims and provide necessary documentation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MediCare Pharmacy</h3>
+                    <p>Your trusted online pharmacy for all your healthcare needs.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                         <div class="social-icons">
+                        <a href="#"><span style="color: #3b5998;"><i style="font-size: 27px;" class="fa-brands fa-square-facebook"></i></span></a>
+                        <a href="#"><span style="color: #fff;"><i style="font-size: 27px;" class="fa-brands fa-square-x-twitter"></i></span></a>
+                        <a href="#"><span style="color: #e4405f;"><i style="font-size: 27px;" class="fa-brands fa-square-instagram"></i></span></a>
+                        <a href="#"><span style="color: #0077b5;"><i style="font-size: 27px;" class="fa-brands fa-linkedin"></i></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 MediCare Pharmacy. All rights reserved. | Designed MediCare Pharmacy</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
